@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7ec38867b1.js" crossorigin="anonymous"></script>
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="todo.css">
+</head> 
+<body>
+    <header>
+        <p>ToDo List Web App</p>
+    </header>
+    <main>
+        <div class="left">
+            <input type="text" name="title" class="boxin" id="box1" placeholder="Title" >
+            <textarea name="Description" class="boxin" id="box2" cols="30" rows="10" placeholder="Description"></textarea>
+            <button class="boxin" onclick="add()">Save</button>
+        </div>
+        <div class="right">
+            <div class="top">
+                <p>Title</p>
+                <p>Description</p>
+                <p>Delete</p>
+            </div>
+            <div class="mid">
+            </div>
+        </div>
+    </main>
+    <script src="todo.js"></script>
+</body>
+</html>
